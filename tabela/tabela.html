@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+            /* even e odd = par e impar */
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+        .num{
+            text-align: right;
+        }
+        thead > tr > th{
+            position: sticky;
+            /* sticky = colar  */
+            top: -1px;
+            background-color: gray;
+        }
+        thead, tfoot{
+            background-color: gray;
+        }
+
+        caption{
+            font-size: 2em;
+            padding-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>  
+    <!--hierarquia de tabelas
+                tag table
+                    tr = linha
+                        td = dados de linha -->
+    <table>
+        scope serve para ajudar o navegador a entender se a celula é lida horizontalmente ou verticalmente no navegador
+        <caption>tabela</caption>
+        <thead> 
+            <th scope="col">numero</th>
+            <th scope="col">letra</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr> <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="num">2</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <th scope="row">oas</th>
+            <td>asj</td>
+        </tfoot>
+    </table>
+
+    <asside>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat itaque quasi consectetur consequuntur, aliquid sunt, libero tenetur repudiandae animi veritatis error quisquam voluptate nemo natus est ut, magnam impedit id.lora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nisi voluptatem autem mollitia provident distinctio perferendis ea sequi ipsam, nostrum atque vel ab est repellendus a magni, eaque, id nesciunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum id blanditiis quasi beatae aut minima quisquam recusandae ipsa, consequatur, iste quae cumque corrupti distinctio porro, velit enim consectetur reprehenderit! Deserunt.lore </p>
+    </asside>
+
+</body>
+</html>
